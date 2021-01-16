@@ -1,0 +1,138 @@
+body, html {
+  font-family: 'Roboto Slab', serif;
+  background: rgb(223, 212, 183);
+  line-height: 1;
+  height: 100%;
+}
+
+.htop h1 {
+  color: #fff;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.htop p {
+ color: #fff;
+}
+
+.htop {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  min-height: auto;
+  background-image: url(https://source.unsplash.com/weekly?sports/1600x1600);
+  background-size: 100% 250px;
+  background-repeat: no-repeat;
+}
+
+
+
+hr {
+  border-top:  solid red;
+   border-bottom: none;
+}
+
+.products {
+  border-top: dotted #abaeae 5px;
+  border-bottom: none;
+  width: 30%;
+  margin: 40px auto;
+  padding-bottom: 40px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+  #about {
+   padding: 50px 0;
+   color: rgba(59, 59, 59, 0.657);
+  }
+
+   i {
+   background: rgb(54, 53, 53);
+   margin: 5px;
+  }
+
+ 
+  .card {
+    border: 2px solid rgb(214, 206, 206);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 5px;
+     font-family: 'Roboto Slab',
+     serif;
+     font-size: 14px;
+     color: rgba(59, 59, 59, 0.657);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .12),
+      0 4px 8px rgba(0, 0, 0, .06);
+  }
+
+  .card:hover {
+    transform: scale(1.5) 2s;
+     box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+  }
+
+  .card-text {
+    font-family: 'Roboto Slab',
+    serif;
+    font-size: 14px;
+    color: rgba(59, 59, 59, 0.657);
+  }
+
+  #more {
+    background: rgba(133, 126, 126, 0.219);
+    color: rgba(59, 59, 59, 0.657);
+   margin-bottom: 40px;
+   padding: 10px;
+   width: 100%;
+   text-align: left;
+  }
+
+  aside {
+    color: rgba(59, 59, 59, 0.657);
+  }
+
+  form {
+    background: rgba(133, 126, 126, 0.219);
+   color: rgba(59, 59, 59, 0.657);
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  input {
+    color: rgb(59, 59, 59);
+  }
+
+.footerA {
+  margin-top: 50px;
+  padding: 30px;
+ color: rgba(214, 206, 206, 0.657);
+ background:rgb(91, 91, 91);
+ font-size: 14px;
+}
+
+@media(min-width: 768px){
+  .htop{
+    min-height: 100%;
+  }
+   
+}
+
+@media(min-width: 400px) {
+  .htop {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    min-height: auto;
+    background-image: url(https://source.unsplash.com/weekly?sports/1600x700);
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    color: rgb(201, 196, 196);
+    font-size: 1em;
+    padding: 3em;
+  }
+}
+
